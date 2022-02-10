@@ -161,6 +161,10 @@ p {
     margin: 5px 20px 0 20px;
 }
 
+.content h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
 .quote {
     display: flex;
     flex-direction: column;
