@@ -82,3 +82,32 @@ p {
     background-color: darkgray;
     /*height: 100%;*/
 }
+
+._border {
+    border-bottom: 1px dodgerblue solid;
+    border-top: 1px dodgerblue solid;
+    border-right: 1px dodgerblue solid;
+    border-left: 1px dodgerblue solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+._sizing {
+    height: 120px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+.quote {
+    background-color: lightgrey;
+    padding-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+blockquote {
+    text-align: justify;
+    /*width: 40%;*/
+}
