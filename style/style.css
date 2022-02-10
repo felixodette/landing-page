@@ -111,3 +111,20 @@ blockquote {
     text-align: justify;
     /*width: 40%;*/
 }
+
+.c/all-to-action {
+    background-color: #3882F6;
+}
+
+.cta {
+    color: white;
+}
+
+.footer-section {
+    background-color: black;
+}
+
+.footer-section p {
+    color: white;
+    font-size: 12px;
+}
