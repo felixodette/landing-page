@@ -1,0 +1,84 @@
+body {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.topnav {
+    display: inline-block;
+    background-color: #1F2937;
+    width: 900px;
+    height: 450px;
+    width: 100%;
+}
+
+.topnav a.logo {
+    float: left;
+}
+
+
+.topnav a {
+    color: white;
+    float: right;
+    padding: 17px 17px;
+}
+
+.topnav span {
+    padding-top: 100px;
+    /*display: inline-block;*/
+    /*border: 1px solid #666666;*/
+    width: 40%;
+}
+
+.top-section {
+    /*padding-top: 10px;*/
+    /*flex: 1;*/
+    display: inline-block;
+    background-color: #1F2937;
+    height: 20%;
+}
+
+.img-placeholder {
+    display: inline-block;
+    height: 20%;
+    background-color: darkgray;
+}
+
+h1 {
+    /*padding-top: 150px;*/
+    color: #F9FAF8;
+    font: 700 48px/50px "Copper Pot", serif;
+}
+
+p {
+    font: 18px/20px "Hero", serif;
+    color: #E5E7EB;
+}
+
+.btn {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 2px;
+    border: solid #3882F6;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.flex-parent-element {
+    display: flex;
+    width: 90%;
+}
+
+.flex-child-element {
+    flex: 1;
+    /*border: 2px solid blueviolet;*/
+    margin: 50px 20px 20px 50px;
+}
+
+.flex-child-element:first-child {
+    margin-right: 50px;
+}
+
+#second-child {
+    text-align: center;
+    background-color: darkgray;
+    /*height: 100%;*/
+}
